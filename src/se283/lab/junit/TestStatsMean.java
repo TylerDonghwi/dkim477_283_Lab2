@@ -22,6 +22,12 @@ public class TestStatsMean {
 		assertEquals("Mean of list {0}", 0, stats.getMean());
 	}
 
+	@Test
+	public void newTstZero() {
+		Stats stats = new Stats(new int[] { 0 });
+		assertEquals("Mean of list {0}", 2, stats.getMean());
+	}
+
 	/**
 	 * Test that the mean is correctly computed for the easy case of a list
 	 * containing a single value (that isn't 0).
