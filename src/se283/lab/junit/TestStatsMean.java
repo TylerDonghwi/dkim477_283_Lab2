@@ -29,7 +29,7 @@ public class TestStatsMean {
 	}
 
 	@Test
-	public void newnewTstZero() {
+	public void newnewNEWTstZero() {
 		Stats stats = new Stats(new int[] { 0 });
 		assertEquals("Mean of list {0}", 0, stats.getMean());
 	}
