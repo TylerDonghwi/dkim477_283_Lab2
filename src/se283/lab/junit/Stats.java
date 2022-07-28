@@ -39,7 +39,7 @@ public class Stats {
 			}
 			sum = sum + _numbers[i];
 		}
-		System.out.println("HELLO WORLD");
+		System.out.println("HI WORLD");
 		return sum / _numbers.length;
 	}
 
