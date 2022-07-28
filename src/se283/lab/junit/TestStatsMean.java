@@ -25,7 +25,7 @@ public class TestStatsMean {
 	@Test
 	public void newTstZero() {
 		Stats stats = new Stats(new int[] { 0 });
-		assertEquals("Mean of list {0}", 2, stats.getMean());
+		assertEquals("Mean of list {0}", 0, stats.getMean());
 	}
 
 	/**
